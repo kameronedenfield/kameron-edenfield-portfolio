@@ -19,6 +19,10 @@ a {
 	color: white;
 }
 
+h1 {
+	font-size: 3.2em;
+}
+
 /* Nav Section */
 
 .top-nav {
@@ -27,16 +31,13 @@ a {
 }
 .logo > h1 {
 	color: white;
-	font-size:25px;	
+	font-size: 25px;	
 	text-align: left;
 	float: left;
 	margin: 0px;
 	padding-left: 50px;
 }
-.logo > h1:hover {
-	cursor: pointer;
-	color: #cccccc;
-}
+
 .logo {
 	float: left;
 	display: block;
@@ -86,7 +87,7 @@ span:hover {
 	text-align: center;
 	color:white;
 	margin-top: 06rem;
-	height: 500px;	
+	height: 700px;	
 }
 .content > h3 {
 	font-size: 50px;
@@ -139,14 +140,18 @@ span:hover {
 	background-color: white;
 	color: #1C202A;
 	width: 100%;
-	height: 700px;
+	height: 900px;
 	overflow:hidden;
 	text-align: center;
 	font-family: Work Sans, sans serif;
 }
 
-.about > h3 {
-	margin-top: 15rem;
+.about > p {
+	margin-top: 5rem;
+	margin-left: 15rem;
+	font-size: 2.5em;
+	width: 700px;
+	text-align: left;
 }
 
 /* Blog Section */
@@ -154,14 +159,15 @@ span:hover {
 	background-color: #1C202A;
 	color: white;
 	width: 100%;
-	height: 700px;
+	height: 900px;
 	overflow:hidden;
 	text-align: center;
 	font-family: Work Sans, sans serif;
 }
 
-.blog > h3 {
+.blog > p {
 	margin-top: 15rem;
+	font-size: 3.0em;
 }
 
 /* Projects Section */
@@ -169,25 +175,66 @@ span:hover {
 	background-color: #E78523;
 	color: white;
 	width: 100%;
-	height: 700px;
+	height: 1300px;
 	overflow:hidden;
 	text-align: center;
 	font-family: Work Sans, sans serif;
 }
 
-.projects > h3 {
-	margin-top: 15rem;
+.projects > p {
+	margin-top: 5rem;
+	font-size: 3.0em;
 }
 
-/* Media Queries */
-/*@media only screen and (max-width: 500px) {
-    .masthead {
-        padding: 3em 0;
-    }
-    .masthead-heading {
-        font-size: 3em;
-    }
-    .content-footer {
-        font-size: 40%;
-    }
+.karma-pic {
+	float: left;
+	margin-left: 5rem;
+	border: solid;
+    border-width: 5px;
+    border-color: #747D8E;
 }
+.karma-container {
+	height: 300px;
+	margin-top: 8rem;
+}
+.karma-container > p {
+	font-size: 2.5em;
+	text-align: left;
+	margin-left: 36rem;
+    padding-top: 7rem;
+}
+.ny-pic {
+	float: right;
+	margin-right: 5rem;
+	border: solid;
+    border-width: 5px;
+    border-color: #747D8E;
+}
+.ny-container {
+	height: 300px;
+}
+.ny-container  > p {
+	font-size: 2.5em;
+	text-align: right;
+	margin-right: 36rem;
+    padding-top: 7rem;
+}
+.about-pic {
+	float: left;
+	margin-left: 5rem;
+	border: solid;
+    border-width: 5px;
+    border-color: #747D8E;
+}
+
+.about-container {
+	height: 300px;
+}
+.about-container > p {
+	font-size: 2.5em;
+	text-align: left;
+	margin-left: 36rem;
+    padding-top: 7rem;
+
+}
+
